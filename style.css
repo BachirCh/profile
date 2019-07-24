@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ @font-face {font-family:"DEATHNOTE Font";src:url("DEATHNOTEFont.eot?") format("eot"),url("DEATHNOTEFont.woff") format("woff"),url("DEATHNOTEFont.ttf") format("truetype"),url("DEATHNOTEFont.svg#DEATHNOTE-Font") format("svg");font-weight:normal;font-style:normal;}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #EEE;
+  background-color: #333;
+  background-image: url(images/back2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+p {
+font-family: 'Josefin Sans', sans-serif;
+}
+.card_border {
+  width: 700px;
+  margin: 160px auto 0;
+  /*margin-top: 20px;*/
+  text-align: center;
+  background-color: rgba(85, 85, 85, 0.54);
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255,255,255,0.5);
+
+}
+
+#my_pic {
+  width: 100px;
+  margin: 0 auto;
+  /*display: block;*/
+  border-radius: 50%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  display: inline;
+}
+
+.sn {
+  display: inline-block;
+  font-size: 25px;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255, 255, 0, 0.11);
+  border-radius: 50%;
+  line-height: 60px;
+}
+
+#fb:hover{
+color: blue;
+}
+
+#git:hover{
+color: grey;
+}
+
+.sn:hover {
+  color: rgb(255, 69, 101);
+}
+
+#profile{
+  color: rgb(162, 188, 67);
+}
+#profile:hover{
+  color: rgb(0, 0, 54);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card_border {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card_border {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card_border {
+    width: 300px;
+  }
+}
+
